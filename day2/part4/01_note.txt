@@ -1,0 +1,15 @@
+"""
+[] square bracket
+"""
+
+a = ['aaaa', 'bb', 'ccc']
+[len(s) for s in a]
+
+a = [1,2,3,4]
+[num*num for num in a]
+
+import os
+import re
+os.listdir('.')
+[f for f in os.listdir('.') if re.search(r'__\w+__', f)]
+
