@@ -16,3 +16,6 @@ $ python
 >>> a
 1 
 ```
+
+# References
+Official documents: https://developers.google.com/edu/python/
